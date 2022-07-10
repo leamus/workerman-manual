@@ -13,7 +13,7 @@
 
 2、ThinkPHP以HTTP协议提供网页页面在浏览器渲染展示。
 
-3、ThinkPHP提供的页面的js发起websocket连接，连接workerman
+3、ThinkPHP提供的页面的客户端js发起websocket连接，连接workerman。
 
 4、连接后给Workerman发送一个数据包(包含用户名密码或者某种token串)用于验证websocket连接属于哪个用户。
 
